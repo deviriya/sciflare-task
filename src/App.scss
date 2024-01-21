@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.login-form {
+  height: 100vh;
+  background-color: #1F618D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.dropdown {
+
+  .btn-secondary,
+  .btn-secondary:focus,
+  .btn-secondary:focus-visible,
+  .btn-secondary:active,
+  .btn-secondary:hover {
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
